@@ -49,7 +49,60 @@ body
     animation:jadu2 2s ease 0s,
     fadeout 3s forwards;
 }
-
+.tree
+{
+    position:relative;
+    width:400px;
+    height:400px;
+    right:10px;
+}
+.trunk
+{
+    height:200px;
+    width:60px;
+    border-radius:30px;
+    background-color:#d15c47fd;
+    position:absolute;
+    bottom:0px;
+    right:220px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
+.lea2
+{
+    height:200px;
+    width:200px;
+    background-color:#59D65D;
+    position:absolute;
+    border-radius:100%;
+    left:50px;
+    bottom:200px;
+    opacity:0.9;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+} 
+.lea
+{
+    height:200px;
+    width:200px;
+    background-color:#59D65D;
+    position:absolute;
+    border-radius:100%;
+    left:100px;
+    bottom:100px;
+    opacity:0.9;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
+.lea3
+{
+    height:200px;
+    width:200px;
+    background-color:#59D65D;
+    position:absolute;
+    border-radius:100%;
+    left:0px;
+    bottom:100px;
+    opacity:0.9;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
 @keyframes jadu
 {
     0%
