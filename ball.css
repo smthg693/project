@@ -8,6 +8,15 @@ body{
     align-items: center;
     justify-content: center;
     height:100vh;
+    position:relative;
+}
+.bgblob
+{
+    position:absolute;
+    height:100px;
+    width:100px;
+    border-radius:40px;
+    background:linear-gradient(90deg,#c9a5a5,#e4c68f);
 }
 .ball
 {
@@ -78,8 +87,8 @@ nav a{
 }
 .blobs
 {
-    position:absolute;
-
+    position:relative;
+    
     top:20;
     left:10;
     
