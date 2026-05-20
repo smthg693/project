@@ -1,7 +1,7 @@
 body{
     margin:0;
     overflow-x:hidden;
-    background:linear-gradient(90deg,#ffcbcb,#bafcff);
+    background:linear-gradient(120deg,#ffcbcb,#bafcff);
     animation:pageop 1.2s ease;
 }
 @keyframes pageop
